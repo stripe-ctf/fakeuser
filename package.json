@@ -1,0 +1,22 @@
+{
+  "name": "fakeuser",
+  "version": "0.0.1",
+  "description": "Fake users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stripe-ctf/fakeuser.git"
+  },
+  "author": "Carl Jackson <carl@stripe.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/stripe-ctf/fakeuser/issues"
+  },
+  "dependencies": {
+    "mongodb": "~1.3.19",
+    "ldapjs": "~0.6.3"
+  }
+}
